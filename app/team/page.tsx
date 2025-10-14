@@ -202,7 +202,7 @@ const teamMembers = [
     role: "core member",
     domain: "Full Stack Webd",
     linkedin: "www.linkedin.com/in/sujata-kumari9",
-    GitHub: "https://github.com/Suja-ta-kumari",
+    github: "https://github.com/Suja-ta-kumari",
     email: "sujatakumari6569@gmail.com",
     bio: "#Sujata.. Code. Create. Conquer.",
     image: "/sujata.webp",
@@ -349,6 +349,7 @@ const advisors = [
     role: "Faculty Advisor",
     currentPosition: "Assistant Prof.",
     image: "/swetanjali.webp",
+    linkedin: "#",
   },
   {
     id: 2,
@@ -356,6 +357,7 @@ const advisors = [
     role: "Faculty Advisor",
     currentPosition: "Assistant Prof.",
     image: "/bandhan.webp",
+    linkedin: "#",
   },
 ];
 
