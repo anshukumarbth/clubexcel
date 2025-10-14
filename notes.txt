@@ -1,0 +1,63 @@
+code for about.tsx
+import { Users, Target, Rocket, // const stats = [
+// 	{ icon: Users, label: "Active Members", value: "40+" },
+// 	{ icon: Target, label: "Projects Completed", value: "150+" },
+// 	// { icon: Rocket, label: "Domains Explored", value: "4" },
+// 	// { icon: Award, label: "Hackathons Won", value: "25+" },
+// ]
+Award } from "lucide-react"
+
+
+{/* <div className="flex justify-center items-center w-full">
+					<div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-5xl">
+						{stats.map((stat, index) => (
+							<motion.div
+								key={stat.label}
+								initial={{ opacity: 0, scale: 0.8 }}
+								animate={
+									isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }
+								}
+								transition={{ duration: 0.5, delay: index * 0.1 }}
+								className="relative group"
+							>
+								<div className="p-6 rounded-2xl bg-gradient-to-br from-blue-500/10 to-purple-600/10 border border-blue-500/20 hover:border-blue-500/40 transition-all duration-300 h-full flex flex-col items-center text-center justify-center">
+									<motion.div
+										whileHover={{ rotate: 360, scale: 1.1 }}
+										transition={{ duration: 0.5 }}
+										className="mb-4 p-3 rounded-full bg-gradient-to-br from-blue-500 to-purple-600"
+									>
+										<stat.icon className="w-6 h-6 text-white" />
+									</motion.div>
+									<div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent mb-2">
+										{stat.value}
+									</div>
+									<div className="text-sm text-muted-foreground">
+										{stat.label}
+									</div>
+								</div>
+							</motion.div>
+						))}
+					</div>
+				</div> */}
+
+
+
+code for domain.tsx
+<Link href={`/roadmap/${domain.title.toLowerCase().replace(/\s+/g, '-')}`}>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="w-full group/btn hover:bg-blue-500/10 hover:text-blue-500"
+                  >
+                    View Roadmap
+                    <motion.span
+                      className="ml-2"
+                      animate={{ x: [0, 4, 0] }}
+                      transition={{ duration: 1.5, repeat: Infinity }}
+                    >
+                      →
+                    </motion.span>
+                  </Button>
+                </Link>
+
+
