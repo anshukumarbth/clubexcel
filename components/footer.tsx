@@ -50,7 +50,7 @@ export function Footer() {
                   alt="Club Logo"
                   width={32}
                   height={32}
-                  className="relative z-10 w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10"
+                  className="relative z-10 w-16 h-10 sm:w-9 sm:h-9 lg:w-10 lg:h-10"
                 />
                 <span className="font-bold text-base sm:text-lg lg:text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 group-hover:from-purple-600 group-hover:to-blue-500 transition-all ml-2">
                   CLUB EXCEL

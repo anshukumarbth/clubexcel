@@ -9,7 +9,7 @@ import { Toaster } from '@/components/ui/toaster';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Club Excel - A Hub of Developers & Innovators',
+  title: 'Club Excel',
   description: 'Dare to Match the Pace of Excelites. Multi-domain coding and developer student club.',
   icons: {
     icon: "/clubexcellogo.webp",

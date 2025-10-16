@@ -227,7 +227,7 @@ const teamMembers = [
     github: "https://github.com/Ashmita-notes",
     email: "mashmita05@gmail.com",
     bio: "#ashmita.. technology leads to innovation+leadership",
-    image: "/team/ashmita.jpg",
+    image: "/ashmita.PNG",
   },
   {
     id: 31,
@@ -249,7 +249,7 @@ const teamMembers = [
     github: "https://github.com/amaan-exe",
     email: "amanullah2607main@gmail.com",
     bio: "Conquer and code",
-    image: "/team/amanullah.jpg",
+    image: "/amaan.PNG",
   },
   {
     id: 33,
@@ -271,7 +271,7 @@ const teamMembers = [
     github: "https://github.com/D-Jyothika562",
     email: "durgasijyothika@gmail.com",
     bio: "#Jyothika.. Dream. Design. Deploy.",
-    image: "/team/jyothika.jpg",
+    image: "/jyotika.PNG",
   },
   {
     id: 35,
@@ -293,7 +293,7 @@ const teamMembers = [
     github: "https://github.com/vcancode",
     email: "vineet006patnaik@gmail.com",
     bio: "Write. Debug. Deploy. Repeat.",
-    image: "/team/vineet.jpg",
+    image: "/vineet.PNG",
   },
   {
     id: 37,
@@ -304,7 +304,7 @@ const teamMembers = [
     github: "https://github.com/Ansuman456",
     email: "ansumanpadhy28@gmail.com",
     bio: "Code for the new future",
-    image: "/team/ansuman.jpg",
+    image: "/anshuman.PNG",
   },
   {
     id: 38,
@@ -320,7 +320,7 @@ const teamMembers = [
   {
     id: 39,
     name: "M.Roshni Princy",
-    role: "Core",
+    role: "Core member",
     domain: " Web Development",
     linkedin:
       "https://www.linkedin.com/in/m-roshni-princy-ba517a358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -340,6 +340,39 @@ const teamMembers = [
     bio: "#Adee.. PREDICT. ANALYZE. INNOVATE !",
     image: "/aditya.jpg",
   },
+  {
+    id: 41,
+    name: "Rajiv dey",
+    role: "core member",
+    domain: "CSE",
+     linkedin: "https://www.linkedin.com/in/rajiv-dey-6b4033307",
+    github: "https://github.com/rajivdey2",
+    email: "rajiv.dey.cse.2024@nist.edu",
+    bio: "#",
+    image: "/rajiv.PNG",
+  },
+  {
+    id: 42,
+    name: "Yagyashini Bhagat",
+    role: "Core member",
+    domain: "Cybersecurity",
+    linkedin: "www.linkedin.com/in/yagyashini-bhagat-18151a332 ",
+    github: "https://github.com/YagyashiniBhagat",
+    email: "bhagatyagyashini@gmail.com",
+    bio: "#",
+    image: "/yagya.PNG"
+  },
+  {
+    id: 43,
+    name: "Rishav Kumar Singh",
+    role: "Core member",
+    domain: "Web Development",
+    linkedin: "https://www.linkedin.com/in/rishav-kumar-singh-81a69433b ",
+    github: "https://github.com/Anant205",
+    email: "singhrishav2050@gmail.com",
+    bio: "#",
+    image: "/rashav.PNG"
+  },
 ];
 
 const advisors = [
