@@ -4,7 +4,9 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true,
-    domains: ['drive.google.com'],
+    domains: ['drive.google.com'
+      ,'raw.githubusercontent.com'
+    ],
    },
 };
 

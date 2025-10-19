@@ -381,7 +381,7 @@ const advisors = [
     name: "Swetanjali Maharana",
     role: "Faculty Advisor",
     currentPosition: "Assistant Prof.",
-    image: "/swetanjali.webp",
+    image: "https://raw.githubusercontent.com/clubexcel23/clubimage/main/name.jpg",
     linkedin: "#",
   },
   {
