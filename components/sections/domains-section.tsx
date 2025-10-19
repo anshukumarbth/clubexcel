@@ -68,7 +68,7 @@ export function DomainsSection() {
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.4 }}
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -86,7 +86,7 @@ export function DomainsSection() {
               key={domain.title}
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{ duration: 0.4, delay: index * 0.1 }}
               whileHover={{ y: -8 }}
               className="group relative"
             >
@@ -94,7 +94,7 @@ export function DomainsSection() {
                 <motion.div
                   className={`mb-4 p-3 rounded-xl bg-gradient-to-br ${domain.gradient} w-fit`}
                   whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 0.4}}
                 >
                   <domain.icon className="w-6 h-6 text-white" />
                 </motion.div>

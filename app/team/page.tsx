@@ -728,7 +728,7 @@ function CardWrapper({
         damping: 20,
         stiffness: 100,
       }}
-      className="rounded-xl border border-white/10 bg-[#101020] p-4 shadow-lg will-change-transform"
+      className="rounded-xl border bg-card p-4 shadow-lg will-change-transform"
     >
       {children}
     </motion.div>
@@ -748,7 +748,7 @@ function AdvisorCard({ member, index }: { member: Advisor; index: number }) {
       </div>
       <h3 className="text-lg font-semibold">{member.name}</h3>
       <p className="text-blue-400">{member.role}</p>
-      <p className="text-sm text-gray-400">{member.currentPosition}</p>
+      <p className="text-sm text-muted-foreground">{member.currentPosition}</p>
     </CardWrapper>
   );
 }
@@ -774,8 +774,8 @@ function TeamMemberCard({
       </div>
       <h3 className="text-lg font-semibold">{member.name}</h3>
       <p className="text-blue-400">{member.role}</p>
-      <p className="text-sm text-gray-400">{member.domain}</p>
-      <p className="text-sm text-gray-400 mt-2">{member.bio}</p>
+      <p className="text-sm text-muted-foreground">{member.domain}</p>
+      <p className="text-sm text-muted-foreground mt-2">{member.bio}</p>
       <div className="flex justify-center gap-4 mt-2">
         <a
           href={member.linkedin}
@@ -834,12 +834,12 @@ export default function TeamPage() {
   const [activeSection, setActiveSection] = useState("members");
 
   return (
-    <div className="min-h-screen bg-[#0b0820] text-white py-20 px-6 md:px-16">
+    <div className="min-h-screen bg-background text-foreground py-20 px-6 md:px-16">
       <div className="text-center mb-12">
         <h1 className="text-5xl font-bold mb-4">
           Our <span className="text-blue-400">Team</span>
         </h1>
-        <p className="text-gray-400 max-w-2xl mx-auto">
+        <p className="text-muted-foreground max-w-2xl mx-auto">
           Meet the brilliant minds who make Club Excel thrive — from our current
           innovators to our experienced advisors and alumni.
         </p>
@@ -855,7 +855,7 @@ export default function TeamPage() {
             className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
               activeSection === section
                 ? "bg-blue-500 text-white shadow-md"
-                : "bg-white/10 text-gray-300 hover:bg-blue-500/20"
+                : "bg-secondary text-secondary-foreground hover:bg-blue-500/20"
             }`}
           >
             {section === "advisors" && "Advisors"}
