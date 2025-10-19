@@ -64,7 +64,7 @@ export function AchievementsSection() {
               initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
-              className="group relative overflow-hidden"
+              className="group relative overflow-hidden rounded-xl shadow-lg shadow-blue-200"
             >
               <div className="relative p-8 rounded-2xl bg-card border border-border hover:border-blue-500/40 transition-all duration-300 h-full">
                 <div className="flex items-start gap-6">

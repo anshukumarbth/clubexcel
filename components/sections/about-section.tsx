@@ -46,9 +46,9 @@ export function AboutSection() {
 						initial={{ opacity: 0, y: 30 }}
 						animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
 						transition={{ duration: 0.8, delay: 0.2 }}
-						className="relative w-full max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-2xl"
+						className="relative w-full max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-xl shadow-blue-200"
 					>
-						<div className="relative pt-[56.25%]">
+						<div className="relative pt-[56.25%] ">
 							{" "}
 							{/* 16:9 Aspect Ratio */}
 							<video
@@ -65,7 +65,7 @@ export function AboutSection() {
 							<div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
 						</div>
 						{/* Play Button Overlay */}
-						<motion.div
+						{/* <motion.div
 							whileHover={{ scale: 1.1 }}
 							whileTap={{ scale: 0.9 }}
 							className="absolute inset-0 flex items-center justify-center group cursor-pointer"
@@ -79,7 +79,7 @@ export function AboutSection() {
 									<path d="M8 5v14l11-7z" />
 								</svg>
 							</div>
-						</motion.div>
+						</motion.div> */}
 					</motion.div>
 				</div>
 

@@ -118,7 +118,7 @@ export default function EventsPage() {
 							Upcoming Events
 						</motion.h2>
 
-						<div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+						<div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 ">
 							{upcomingEvents.map((event, index) => (
 								<motion.div
 									key={event.id}
@@ -128,7 +128,7 @@ export default function EventsPage() {
 									transition={{ delay: index * 0.1 }}
 									className="group"
 								>
-									<div className="h-full rounded-2xl overflow-hidden bg-card border border-border hover:border-blue-500/40 transition-all duration-300">
+									<div className="h-full rounded-2xl overflow-hidden bg-card border border-border hover:border-blue-500/40 transition-all duration-300 shadow-lg shadow-blue-200">
 										<div className="relative h-48 overflow-hidden">
 											<Image
 												src={event.image}
@@ -221,7 +221,7 @@ export default function EventsPage() {
 									transition={{ duration: 0.5, delay: index * 0.1 }}
 									className="group"
 								>
-									<div className="h-full rounded-2xl overflow-hidden bg-card border border-border hover:border-blue-500/40 transition-all duration-300">
+									<div className="h-full rounded-2xl overflow-hidden bg-card border border-borde shadow-lg shadow-blue-200">
 										<div className="relative h-48 overflow-hidden">
 											<Image
 												src={event.image}
