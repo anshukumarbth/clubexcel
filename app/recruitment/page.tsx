@@ -143,14 +143,14 @@ export default function RecruitmentPage() {
               Why Join Us?
             </motion.h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto mb-16 ">
               {benefits.map((benefit, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, x: -20 }}
                   animate={benefitsInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="flex items-start gap-3 p-4 rounded-lg bg-card border border-border hover:border-blue-500/40 transition-colors"
+                  className="flex items-start gap-3 p-4 rounded-lg bg-card border border-border hover:border-blue-500/40 transition-colors shadow-md shadow-blue-300"
                 >
                   <CheckCircle2 className="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" />
                   <span className="text-muted-foreground">{benefit}</span>
@@ -164,7 +164,7 @@ export default function RecruitmentPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="max-w-3xl mx-auto"
+            className="max-w-3xl mx-auto shadow-lg shadow-blue-300 rounded-lg"
           >
             <div className="p-8 md:p-12 rounded-3xl bg-card border border-border shadow-2xl">
               <h2 className="text-3xl font-bold mb-2 text-center">Application Form</h2>
