@@ -728,7 +728,7 @@ function CardWrapper({
         damping: 20,
         stiffness: 100,
       }}
-      className="rounded-xl border bg-card p-4 shadow-lg will-change-transform"
+      className="rounded-xl border bg-card p-4 shadow-lg will-change-transform shadow-blue-200"
     >
       {children}
     </motion.div>

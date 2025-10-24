@@ -71,7 +71,7 @@ const domains = [
 
 const DomainCard = ({ domain }: { domain: (typeof domains)[0] }) => (
 	<div className="group relative flex-shrink-0 w-[300px] md:w-[350px]">
-		<div className="h-full p-6 rounded-2xl bg-card border border-border hover:border-blue-500/40 transition-all duration-300">
+		<div className="h-full p-6 rounded-2xl bg-card border border-border hover:border-blue-500/40 transition-all duration-300 shadow-lg shadow-blue-200">
 			<motion.div
 				className={`mb-4 p-3 rounded-xl bg-gradient-to-br ${domain.gradient} w-fit`}
 				whileHover={{ rotate: 360 }}
@@ -118,7 +118,7 @@ export function DomainsSection() {
 			</div>
 
 			<motion.div
-				className="flex gap-6"
+				className="flex gap-6 "
 				animate={{
 					x: ["0%", "-100%"],
 					transition: {

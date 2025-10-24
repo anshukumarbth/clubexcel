@@ -48,9 +48,15 @@ export function Footer() {
                 <Image
                   src="/clubexcellogo.webp"
                   alt="Club Logo"
+<<<<<<< HEAD
                   width={20}
                   height={20}
                   className="relative z-10 w-10 h-10 sm:w-9 sm:h-9 lg:w-10 lg:h-10"
+=======
+                  width={32}
+                  height={32}
+                  className="relative z-10 w-16 h-10 sm:w-9 sm:h-9 lg:w-10 lg:h-10 "
+>>>>>>> gal
                 />
                 <span className="font-bold text-base sm:text-lg lg:text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 group-hover:from-purple-600 group-hover:to-blue-500 transition-all ml-2">
                   CLUB EXCEL
