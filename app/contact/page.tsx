@@ -19,7 +19,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    content: "clubexcel23@gmail.com",
+    content: "clubexcel2025@gmail.com",
     gradient: "from-purple-500 to-pink-500",
   },
   {
