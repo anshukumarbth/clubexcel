@@ -10,16 +10,16 @@ export async function POST(req: Request) {
     const db = client.db(process.env.MONGODB_DB);
     const applications = db.collection("recruitments"); // 🟢 Collection name fixed
 
-    // const result = await applications.insertOne({
-    //   ...body,
-    //   timestamp: new Date(),
-    //   createdAt: Date.now(),
-    // });
+    const result = await applications.insertOne({
+      ...body,
+      timestamp: new Date(),
+      createdAt: Date.now(),
+    });
     
-    // return NextResponse.json(
-    //   { success: true, id: result.insertedId },
-    //   { status: 200 }
-    // );
+    return NextResponse.json(
+      { success: true, id: result.insertedId },
+      { status: 200 }
+    );
   } catch (err) {
     console.error("Error saving application data to MongoDB:", err);
     return NextResponse.json(
