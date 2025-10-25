@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: 'Club Excel',
   description: 'Dare to Match the Pace of Excelites. Multi-domain coding and developer student club.',
   icons: {
-    icon: "/clubexcellogo.webp",
+    icon: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/clubexcellogo.webp",
   },
 };
 

@@ -117,7 +117,7 @@ export function HeroSection() {
               transition={{ duration: 0.2 }}
             >
               <Image
-                src="/Excel_Logo_Anim.gif"
+                src="https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main//Excel_Logo_Anim.gif"
                 alt="Club Excel Innovation"
                 width={600}
                 height={600}

@@ -64,22 +64,6 @@ export function AboutSection() {
               {/* Gradient Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
             </div>
-            {/* Play Button Overlay */}
-            {/* <motion.div
-							whileHover={{ scale: 1.1 }}
-							whileTap={{ scale: 0.9 }}
-							className="absolute inset-0 flex items-center justify-center group cursor-pointer"
-						>
-							<div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-blue-500/90 flex items-center justify-center transition-all duration-300 group-hover:bg-purple-600/90">
-								<svg
-									className="w-8 h-8 md:w-10 md:h-10 text-white ml-1"
-									fill="currentColor"
-									viewBox="0 0 24 24"
-								>
-									<path d="M8 5v14l11-7z" />
-								</svg>
-							</div>
-						</motion.div> */}
           </motion.div>
         </div>
       </div>

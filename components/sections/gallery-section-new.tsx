@@ -10,35 +10,35 @@ import { X } from "lucide-react"
 
 const galleryImages = [
 	{
-		url: "/1.jpg",
+		url: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/1.jpg",
 		title: "Frontend development using react js",
 	},
 	{
-		url: "/2.jpg",
+		url: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/2.jpg",
 		title: "Sankalp 2024 Code Crusade 2.0",
 	},
 	{
-		url: "/3.jpg",
+		url: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/3.jpg",
 		title: "Sankalp 2024 Excel Arcade",
 	},
 	{
-		url: "/4.jpg",
+		url: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/4.jpg",
 		title: "Explorotech gateway to future",
 	},
 	{
-		url: "/5.jpg",
+		url: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/5.jpg",
 		title: "Git and GitHub workshop",
 	},
 	{
-		url: "/6.jpg",
+		url: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/6.jpg",
 		title: "Sankalp 2025 Day 1 Code Crusade 3.0",
 	},
 	{
-		url: "/7.jpg",
+		url: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/7.jpg",
 		title: "Sankalp Day 2 Ctrl+Win Showdown",
 	},
 	{
-		url: "/8.jpg",
+		url: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/8.jpg",
 		title: "Sankalp Day 2 Ctrl+Win Showdown",
 	}
 ]

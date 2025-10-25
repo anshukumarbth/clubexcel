@@ -23,11 +23,11 @@ const footerLinks = [
 
 const socialLinks = [
   // { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Mail, href: "#", label: "Email" },
-  {icon : Facebook,href: "#", label: "Facebook"},
+  { icon: Linkedin, href: "https://www.linkedin.com/company/club-excel-nist/", label: "LinkedIn" },
+  { icon: Twitter, href: "https://x.com/_club_excel_?t=4oyi9-AIW97mFEUT6hboWA&s=09", label: "Twitter" },
+  { icon: Instagram, href: "https://www.instagram.com/_club_excel_?igsh=bG40ZnMxd3lwNDcz", label: "Instagram" },
+  { icon: Mail, href: "miltor:clubexcel2025@gmail.com", label: "Email" },
+  {icon : Facebook,href: "https://www.facebook.com/share/16K3M5i3nW/", label: "Facebook"},
 ];
 
 export function Footer() {

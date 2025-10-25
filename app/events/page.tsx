@@ -9,18 +9,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const upcomingEvents = [
-  // {
-  // 	id: 1,
-  // 	title: "N8N Workshop",
-  // 	date: "2025-10-24 & 2025-10-25",
-  // 	time: "1:00pm to 5:00pm",
-  // 	location: "Galax Auditorium",
-  // 	description:
-  // 		"In this hands-on workshop, learn to automate workflows and integrate various applications using N8N, a powerful open-source automation tool.",
-  // 	image:"https://tinyurl.com/3v7bf4jp",
-  // 	attendees: 200,
-  // 	category: "Workshop",
-  // },
   {
     id: 2,
     title: "Code Crusade 4.0",
@@ -29,7 +17,7 @@ const upcomingEvents = [
     location: "ATRIUM CC",
     description:
       "Join us for the fourth edition of Code Crusade, a competitive coding event where participants solve challenging problems to win exciting prizes and showcase their coding skills.",
-    image: "CodeCrusade.png",
+    image: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/CodeCrusade.png",
     attendees: "NO Limite",
     category: "Coding Competition",
   },
@@ -41,7 +29,7 @@ const upcomingEvents = [
     location: "ATRIUM Room no. 205",
     description:
       "Embark on a thrilling journey of cryptography and problem-solving in Cipher Chase. Decode puzzles, crack codes, and race against the clock",
-    image: "CipherChase.png",
+    image: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/CipherChase.png",
     attendees: "NO Limite",
     category: "Fun Event",
   },
@@ -49,35 +37,35 @@ const upcomingEvents = [
 
 const pastEvents = [
   {
-    id: 4,
+    id: 1,
     title: "GIT & GITHUB Workshop",
     description:
       "Hands-on workshop on version control using Git and collaborative coding with GitHub.",
-    image: "/5.jpg",
+    image: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main//5.jpg",
     highlights: "200+ participants",
   },
   {
-    id: 5,
+    id: 2,
     title: "Sankalp 2025 Day 1 Code Crusade 3.0",
     description:
       "Competitive coding event with challenging problems and exciting prizes.",
-    image: "/6.jpg",
+    image: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main//6.jpg",
     highlights: "300+ participants",
   },
   {
-    id: 6,
+    id: 3,
     title: "Frontend development using react js",
     description:
       "Comprehensive workshop on building dynamic web applications using React.js and modern JavaScript.",
-    image: "/1.jpg",
+    image: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main//1.jpg",
     highlights: "200+ participants",
   },
   {
-    id: 7,
+    id: 4,
     title: "Explorotech gateway to future",
     description:
       "A tech talk series exploring emerging technologies and future trends in the tech industry.",
-    image: "/4.jpg",
+    image: "https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main//4.jpg",
     highlights: "200+ participants",
   },
 ];
