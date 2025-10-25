@@ -18,7 +18,7 @@ interface FormData {
   name: string;
   email: string;
   pemail: string;
-  hackerRank: string;
+  hackerRank?: string;
   rollNumber: string;
   registrationNumber: string;
   branch: string;
@@ -75,7 +75,17 @@ export default function EventRegistration() {
     e.preventDefault();
 
     // Form validation
-    const requiredFields = Object.entries(formData);
+    const requiredFields = Object.entries([
+      "name",
+      "email",
+      "pemail",
+      "rollNumber",
+      "registrationNumber",
+      "branch",
+      "year",
+      "event",
+      "accommodation",
+    ]);
     const emptyFields = requiredFields.filter(([_, value]) => !value);
 
     if (emptyFields.length > 0) {
@@ -232,7 +242,7 @@ export default function EventRegistration() {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="branch">Branch</Label>
-                 <Input
+                  <Input
                     id="branch"
                     placeholder="branch"
                     required
@@ -284,7 +294,9 @@ export default function EventRegistration() {
                 <div className="space-y-2">
                   <Label htmlFor="event">Select Event</Label>
                   <Select
-                    onValueChange={(value) => handleSelectChange("event", value)}
+                    onValueChange={(value) =>
+                      handleSelectChange("event", value)
+                    }
                     required
                   >
                     <SelectTrigger>
