@@ -8,6 +8,9 @@ const nextConfig = {
       ,'raw.githubusercontent.com'
     ],
    },
+   experimental: {
+    serverMinification: false
+  },
 };
 
 module.exports = nextConfig;
