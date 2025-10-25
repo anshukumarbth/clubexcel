@@ -213,7 +213,7 @@ const teamMembers = [
     role: "Co - Representative",
     domain: "Data Science ",
     linkedin: "https://www.linkedin.com/in/abhisekh-padhy-7374011b6",
-    GitHub: "https://github.com/Abhee05-c",
+    github: "https://github.com/Abhee05-c",
     email: "abhisekhpadhy2005@gmail.com",
     bio: "Do the needful!",
     image:"https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/abhisekhPadhy.jpg"
@@ -221,21 +221,21 @@ const teamMembers = [
   {
     id: 20,
     name: "Riyasuman padhy",
-    Role: "core member",
+    role: "core member",
     domain: "Data analysis",
     linkedin: "https://www.linkedin.com/in/riyasuman-padhy-657a50375",
-    gitHub: "https://www.linkedin.com/in/riyasuman-padhy",
+    github: "https://www.linkedin.com/in/riyasuman-padhy",
     email: "riyapadhy85@gmail.com",
-    Bio: "",
+    bio: "",
     image:"https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/"
   },
   {
     id: 21,
     name: "Biraja Nayak",
-    Role: "core member",
+    role: "core member",
     domain: "Full stack development",
-    linkedIn: "https://www.linkedin.com/in/biraja-nayak-993960310",
-    gitHub: "https://github.com/birajanayak10",
+    linkedin: "https://www.linkedin.com/in/biraja-nayak-993960310",
+    github: "https://github.com/birajanayak10",
     email: "nbiraja916@gmail.com",
     bio: "chasing dreams",
     image:"https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/Biraja%20Nayak.jpg"
