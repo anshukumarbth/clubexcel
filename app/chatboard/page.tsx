@@ -120,7 +120,7 @@ export default function ChatBoard() {
     <>
       <motion.button
         whileHover={{ scale: 1.1 }}
-        className="fixed bottom-6 right-6 bg-blue-600 p-4 rounded-full shadow-lg text-white"
+        className="fixed z-30 bottom-6 right-6 bg-blue-600 p-4 rounded-full shadow-lg text-white"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? <X size={24} /> : <MessageCircle size={24} />}

@@ -46,7 +46,7 @@ export function Footer() {
                   transition={{ duration: 2, repeat: Infinity }}
                 />
                 <Image
-                  src="/clubexcellogo.webp"
+                  src="https://raw.githubusercontent.com/anshukumarbth/clubExcelImage/main/clubexcellogo.webp"
                   alt="Club Logo"
                   width={32}
                   height={32}

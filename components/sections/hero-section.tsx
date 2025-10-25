@@ -22,10 +22,10 @@ export function HeroSection() {
         transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
       />
 
-      <div className="container mx-auto px-4 lg:px-8 relative z-10 ml-5">
+      <div className="container mx-auto px-4 lg:px-8 relative ml-5">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center py-8 md:py-12 lg:py-16">
           {/* Left content column */}
-          <div className="text-center lg:text-left max-w-5xl lg:max-w-none">
+          <div className="text-center lg:text-left max-w-5xl lg:max-w-none z-10">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -109,7 +109,7 @@ export function HeroSection() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="relative w-full"
+            className="relative w-full z-0"
           >
             <motion.div
               className="relative w-full max-w-[300px] md:max-w-[400px] lg:max-w-[600px] mx-auto"

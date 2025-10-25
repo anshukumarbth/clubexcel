@@ -1,5 +1,4 @@
 "use client";
-
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -18,6 +17,7 @@ interface FormData {
   name: string;
   email: string;
   pemail: string;
+  phoneNo?: string;
   hackerRank?: string;
   rollNumber: string;
   registrationNumber: string;
@@ -50,6 +50,7 @@ export default function EventRegistration() {
     name: "",
     email: "",
     pemail: "",
+    phoneNo: "",
     hackerRank: "",
     rollNumber: "",
     registrationNumber: "",
@@ -58,8 +59,8 @@ export default function EventRegistration() {
     event: "",
     accommodation: "",
   });
+  
   const [isLoading, setIsLoading] = useState(false);
-
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
@@ -79,6 +80,7 @@ export default function EventRegistration() {
       "name",
       "email",
       "pemail",
+      "phoneNo",
       "rollNumber",
       "registrationNumber",
       "branch",
@@ -116,6 +118,7 @@ export default function EventRegistration() {
           name: "",
           email: "",
           pemail: "",
+          phoneNo: "",
           hackerRank: "",
           rollNumber: "",
           registrationNumber: "",
@@ -204,6 +207,17 @@ export default function EventRegistration() {
                     required
                     onChange={handleChange}
                     value={formData.pemail}
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="pemail">Phone Number</Label>
+                  <Input
+                    id="phoneNo"
+                    type="tel"
+                    placeholder="+91 9709335128"
+                    required
+                    onChange={handleChange}
+                    value={formData.phoneNo}
                   />
                 </div>
                 <div className="space-y-2">
