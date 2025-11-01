@@ -46,6 +46,9 @@ const eventData = {
 
 export default function EventRegistration() {
   const { toast } = useToast();
+  const [emailError,setEmailError]=useState("")
+  const [phoneError,setPhoneError]=useState("")
+  const [instituteEmailError,setInstituteEmailError]=useState("")
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
@@ -60,6 +63,35 @@ export default function EventRegistration() {
     accommodation: "",
   });
   
+  //emil vaildation, nist email , phone
+  const validateEmail = (email: string) => {
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+    if (!emailPattern.test(email)) {
+      setEmailError("Invalid email format");
+    } else {
+      setEmailError("");
+    }
+  };
+
+  const validatePhone = (phone: string) => {
+    const phonePattern = /^[6-9]\d{9}$/;
+    if (!phonePattern.test(phone)) {
+      setPhoneError("Enter a valid 10-digit phone number");
+    } else {
+      setPhoneError("");
+    }
+  };
+
+  const validateInstituteEmail = (email: string) => {
+    if (!email.includes(".edu")) {
+      setInstituteEmailError("Institute email must contain '.edu'");
+    } else {
+      setInstituteEmailError("");
+    }
+  };
+
+
   const [isLoading, setIsLoading] = useState(false);
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
