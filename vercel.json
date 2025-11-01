@@ -4,6 +4,11 @@
       "source": "/",
       "destination": "https://clubexcel.co.in/sankalp",
       "permanent": true
+    },
+    {
+      "source": "https://clubexcel.vercel.app/event-registration",
+      "destination": "https://clubexcel.co.in/sankalp",
+      "permanent": true
     }
   ]
 }
