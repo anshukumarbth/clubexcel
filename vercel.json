@@ -6,7 +6,7 @@
       "permanent": true
     },
     {
-      "source": "https://clubexcel.vercel.app/event-registration",
+      "source": "/event-registration",
       "destination": "https://clubexcel.co.in/sankalp",
       "permanent": true
     }
